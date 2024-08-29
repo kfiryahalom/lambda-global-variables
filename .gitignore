@@ -1,0 +1,20 @@
+node_modules
+
+*.js
+!jest.config.js
+*.d.ts
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.context.json
+
+.idea/**
+.DS_Store
+*.map
+coverage/
+dist/
+.run
+yarn-error.log
+reports/
+/docker/dynamodb/shared-local-instance.db
